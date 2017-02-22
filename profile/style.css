@@ -1,0 +1,127 @@
+/* Here goes your CSS */
+/* Here goes your CSS */
+body {
+  background: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #DD5555;
+    text-decoration: none;
+}
+
+.btn-red:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #DD2E39;
+}
+
+h1 {
+    color: #DD5555;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background: whitesmoke;
+/*  border: 1px solid darkgrey;
+*/  border-radius: 5px;
+  box-shadow: 2px 2px 2px darkgrey;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#img-profile {
+  width: 170px;
+  height: 170px;
+  border: 3px solid #cccccc;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.list-inline li i {
+    font-size: 25px;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.size_serie_icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+#movies td {
+    padding: 10px;
+    vertical-align: top;
+}
